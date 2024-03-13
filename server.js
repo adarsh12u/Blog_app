@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
    // Replace with your frontend's URL
-   origin:['https://blog-market-application.netlify.app'],
+   origin:'http://localhost:5173',
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Specify the HTTP methods you want to allow
   credentials: true,
 }))
