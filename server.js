@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
    // Replace with your frontend's URL
-   origin:["https://blog-frontend-js3bcf9w3-adarsh-gurjars-projects.vercel.app"],
+   origin:["https://blog-frontend-jet-phi.vercel.app/"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Specify the HTTP methods you want to allow
   credentials: true,
 }))
